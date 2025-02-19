@@ -6,7 +6,6 @@
     <title>Calculator</title>
     <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
     <style>
-       <style>
         /* General Body Styles */
         body {
             margin: 0;
@@ -15,12 +14,16 @@
             justify-content: center;
             align-items: center;
             height: 100vh;
-            background: #f4f4f4;
+            background: black; /* Change background to black */
+            color: white; /* Ensure text is visible on black background */
         }
 
         /* CAPTCHA Container */
         #captcha-container {
             text-align: center;
+            background: black; /* Ensure CAPTCHA container background is black */
+            padding: 20px;
+            border-radius: 10px;
         }
 
         /* Hide Main Content Initially */
@@ -95,7 +98,6 @@
             background-color: hsl(16, 100%, 60%);
         }
     </style>
-
 </head>
 <body>
     <!-- CAPTCHA Container -->
